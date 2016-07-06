@@ -2,11 +2,12 @@
  - 主页面与iframe，iframe与iframe之间的跨域交流
  - 使用简单
 
+
+#实例化
   首先请把message.js加入项目中
 ```html
   <script src="message.js"></script>
 ```
-#实例化
   实例化一个message对象
 ```html
  <script>
