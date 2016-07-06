@@ -44,7 +44,7 @@
  ```html
  <script>
    var message1 = new Message({name:'message1'});
-   var message2 = new Message({name:'message2'});
+    var message2 = new Message({name:'message2'});
  </script>
  ```
  - 实例化的时候可以一次性添加多个侦听事件。
@@ -60,7 +60,7 @@
    
  </script>
  ```
-  - 发送的信息建议使用字符串，避免低版本IE不兼容。
+ - 发送的信息建议使用字符串，避免低版本IE不兼容。
   
  ```html
  <script>
