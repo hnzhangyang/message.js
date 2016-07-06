@@ -77,5 +77,5 @@
     message.targets['iframe'].send('hello');
  </script>
  ```
-#感谢
+ #感谢
   本组件源码来自 https://github.com/biqing/MessengerJS ，并做适当简化与修改。
