@@ -24,7 +24,8 @@
  <script>
 ```
   - 发送消息请用send()方法
- ```html
+ 
+```html
  <script>
    var message = new Message();
    message.addTarget(window.frames[0],'iframe')；
