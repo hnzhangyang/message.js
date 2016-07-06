@@ -1,6 +1,6 @@
 ## message.js
  - 主页面与iframe，iframe与iframe之间的跨域交流
- - 使用简单
+ - 使用简单，ie7以上以及现代浏览器支持
 
 
 #实例化
