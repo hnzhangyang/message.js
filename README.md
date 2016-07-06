@@ -1,7 +1,7 @@
 ## message.js
  - 主页面与iframe，iframe与iframe之间的跨域交流
  - 使用简单
-## usage
+# usage
   首先请把message.js加入项目中
 ```html
   <script src="message.js"></script>
