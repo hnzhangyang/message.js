@@ -43,7 +43,7 @@
  
  ```html
  <script>
-   var message1 = new Message({name:'message1'});
+    var message1 = new Message({name:'message1'});
     var message2 = new Message({name:'message2'});
  </script>
  ```
