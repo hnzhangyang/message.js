@@ -12,7 +12,7 @@
 ```html
  <script>
    var message = new Message();
- <script>
+ </script>
 ```
 #发送消息
    - 如果需要发送信息，请先用message.addTarget()方法给目标注册一个发送机。
@@ -21,7 +21,7 @@
  <script>
    var message = new Message();
    message.addTarget(window.frames[0],'iframe')；
- <script>
+ </script>
 ```
   - 发送消息请用send()方法
  
@@ -30,7 +30,7 @@
    var message = new Message();
    message.addTarget(window.frames[0],'iframe')；
    message.targets['iframe'].send('hello');
- <script>
+ </script>
 ```
 #接受消息
  接受消息用message.listen方法
@@ -44,7 +44,7 @@
    message.listen(function(msg){
      alert(msg);
    })
- <script>
+ </script>
 ```
 #Notes
  - 如果一个项目中使用多套message，实例化的时候请赋值name值。避免干扰。
