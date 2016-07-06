@@ -39,14 +39,14 @@
  <script>
 ```
 #Notes
- - 如果一个项目中使用多套message，实例化的时候请赋值name值。避免干扰
+ - 如果一个项目中使用多套message，实例化的时候请赋值name值。避免干扰。
  ```html
  <script>
    var message1 = new Message({name:'message1'});
    var message2 = new Message({name:'message2'});
  </script>
  ```
- - 实例化的时候可以一次性添加多个侦听事件
+ - 实例化的时候可以一次性添加多个侦听事件。
  ```html
  <script>
    var message = new Message({
@@ -59,7 +59,8 @@
    
  </script>
  ```
-  - 发送的信息建议使用字符串，避免低版本IE不兼容
+  - 发送的信息建议使用字符串，避免低版本IE不兼容。
+  - 
  ```html
  <script>
    var message = new Message();
