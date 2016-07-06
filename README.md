@@ -44,7 +44,7 @@
  ```html
  <script>
    var message1 = new Message({name:'message1'});
-   var message2 = new Message({name:'message2'});
+    var message2 = new Message({name:'message2'});
  </script>
  ```
  - 实例化的时候可以一次性添加多个侦听事件。
@@ -64,7 +64,7 @@
   
  ```html
  <script>
-   var message = new Message();
+    var message = new Message();
     message.addTarget(window.frames[0],'iframe')；
     message.targets['iframe'].send('hello');
  </script>
