@@ -15,7 +15,7 @@
  <script>
 ```
 #发送消息
-  如果需要发送信息，请先用message.addTarget方法注册一个发送机,再使用send方法给目标发送消息。
+  如果需要发送信息，请先用message.addTarget方法给目标注册一个发送机,再使用send方法给目标发送消息。
   message.addTarget第一个参数为iframe实体，第二个为调用的名字。如果子iframe想给父页面发送消息，第一个参数传入window.parent。
 ```html
  <script>
