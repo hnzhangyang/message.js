@@ -56,6 +56,7 @@
  </script>
  ```
  - 实例化的时候可以一次性添加多个侦听事件。
+ 
  ```html
  <script>
    var message = new Message({
@@ -64,7 +65,7 @@
        function(){},
        function(){}
      ]
-    });
+   });
  </script>
  ```
  - 发送的信息建议使用字符串，避免低版本IE不兼容。
