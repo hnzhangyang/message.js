@@ -3,7 +3,7 @@
  - 使用简单，ie7以上以及现代浏览器支持
 
 
-# 实例化
+## 实例化
   首先请把message.js加入项目中
 ```html
   <script src="message.js"></script>
@@ -14,7 +14,7 @@
    var message = new Message();
  </script>
 ```
-# 发送消息
+## 发送消息
    - 如果需要发送信息，请先用message.addTarget()方法给目标注册一个发送机。
    - message.addTarget()方法接受两个参数。第一个参数为目标iframe（如果是子iframe想给父页面发送消息，请用window.parant代替）。第二个参数为调用名称。
 ```html
@@ -32,7 +32,7 @@
    message.targets['iframe'].send('hello');
  </script>
 ```
-# 接受消息
+## 接受消息
  接受消息用message.listen方法
  ```html
  <script>
@@ -46,7 +46,7 @@
    })
  </script>
 ```
-# Notes
+## Notes
  - 如果一个项目中使用多套message，实例化的时候请赋值name值。避免干扰。
  
  ```html
@@ -78,5 +78,5 @@
  </script>
  ```
  
-# 感谢
+## 感谢
   本组件源码来自 https://github.com/biqing/MessengerJS ，并做适当简化与修改。
