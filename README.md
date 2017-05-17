@@ -1,10 +1,10 @@
 ## message.js
- - 主页面与iframe，iframe与iframe之间的跨全域交流
+ - 主页面与 iframe ，iframe 与 iframe 之间的跨全域交流
  - 使用简单，ie7以上以及现代浏览器支持
 
 
 ## 实例化
-  首先请把message.js加入项目中
+  首先请把 message.js 加入项目中
 ```html
   <script src="message.js"></script>
 ```
@@ -15,8 +15,8 @@
  </script>
 ```
 ## 发送消息
-   - 如果需要发送信息，请先用message.addTarget()方法给目标注册一个发送机。
-   - message.addTarget()方法接受两个参数。第一个参数为目标iframe（如果是子iframe想给父页面发送消息，请用window.parant代替）。第二个参数为调用名称。
+   - 如果需要发送信息，请先用 message.addTarget 方法给目标注册一个发送机。
+   - message.addTarget 方法接受两个参数。第一个参数为目标 iframe （如果是子 iframe 想给父页面发送消息，请用 window.parant 代替）。第二个参数为调用名称。
 ```html
  <script>
    var message = new Message();
@@ -33,7 +33,7 @@
  </script>
 ```
 ## 接受消息
- 接受消息用message.listen方法
+ 接受消息用 message.listen 方法
  ```html
  <script>
    var message = new Message();
@@ -47,7 +47,7 @@
  </script>
 ```
 ## Notes
- - 如果一个项目中使用多套message，实例化的时候请赋值name值。避免干扰。
+ - 如果一个项目中使用多套 message ，实例化的时候请赋值 name 值。避免干扰。
  
  ```html
  <script>
