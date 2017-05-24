@@ -1,4 +1,4 @@
-## message111.js
+## message1222.js
  - 主页面与 iframe ，iframe 与 iframe 之间的跨全域交流
  - 使用简单，ie7以上以及现代浏览器支持
 
