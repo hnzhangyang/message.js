@@ -9,7 +9,7 @@
 - [Notes](#Notes)
 
 ## 实例化
-  首先请把 message.js 加入项目中
+  首先把 message.js 加入项目中
 ```html
   <script src="message.js"></script>
 ```

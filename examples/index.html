@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index page</title>
+        <script src="message.js"></script>
+    </head>
+    <body>
+        <iframe id="ifm" src="frame.html" ></iframe>
+    </body>
+    <script>
+        var message = new Message();
+        message.addTarget(window.frames[0], 'iframe');
+        setTimeout(function(){
+            message.targets['iframe'].send('hello');
+        },100)
+        
+    </script>
+</html>
